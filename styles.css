@@ -98,3 +98,67 @@ nav ul li a {
     font-size: 14px;
     opacity: 0.8;
 }
+
+
+.videos {
+    background-color: #f9f9f9;
+    padding: 80px 60px;
+}
+
+.videos h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #071629;
+}
+
+.videos-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.videos-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.videos-card h3 {
+    font-size: 16px;
+    color: #071629;
+    margin: 15px 0 10px;
+}
+
+.videos-card p {
+    font-size: 14px;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.rating {
+    display: flex;
+    gap: 4px;
+    margin: 10px 0;
+}
+
+.rating i {
+    color: #c271ff;
+}
+
+
+.videos-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
