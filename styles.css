@@ -68,3 +68,33 @@ nav ul li a {
     border-radius: 30px;
     cursor: pointer;
 }
+
+
+
+.quote {
+    background-color: #c271ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px 80px;
+}
+
+.quote img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote blockquote {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.quote h3 {
+    font-size: 14px;
+    opacity: 0.8;
+}
