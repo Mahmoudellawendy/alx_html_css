@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 60px;
+}
+
+nav {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1544005313-94ddf0286df2');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner span {
+    margin: 0 10px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+.banner button {
+    display: block;
+    margin: 40px auto 0;
+    padding: 15px 70px;
+    font-size: 10px;
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
