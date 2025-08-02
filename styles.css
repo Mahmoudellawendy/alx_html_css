@@ -256,3 +256,58 @@ nav ul li a {
   color: #6c757d;
   line-height: 1.6;
 }
+
+
+
+
+.footer {
+  background-color: #071629;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.footer section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-top img {
+  width: 150px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 30px;
+  font-size: 24px;
+}
+
+.footer-socials i {
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.footer-socials i:hover {
+  color: #C271FF;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+@media (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
