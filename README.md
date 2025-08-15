@@ -1,4 +1,3 @@
-# alx_html_css
 # 🎧 Headphones Landing Page
 
 This is a fully responsive, accessible, and pixel-perfect web page built with **HTML** and **CSS only**, based on a Figma design created by **Nicolas Philippot**.
