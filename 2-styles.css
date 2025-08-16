@@ -120,3 +120,40 @@ body {
     font-size: 14px;
 }
 
+.our-results {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.our-results h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 16px;
+    margin-bottom: 10;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 40px;
+}
+
+.result {
+    width: 150px;
+}
+
+.result h3 {
+    font-size: 28px;
+    color: var(--main-color00);
+    margin-bottom: 12px;
+}
+
+.result p {
+    font-size: 14px;
+}
