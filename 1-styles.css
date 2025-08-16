@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-color: #FF6565;
+    --text-color: #fff;
+    --background-color: #1f1f1f;
+    --btn-opacity-hover: 0.9;
+    --max-width: 1000px;
+}
+
+body {
+    font-family: 'Source Sans Pro' , sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-family: 'Spine-Cycle-OT', sans-serif;
+    font-size: 24px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:active {
+    color: var(--main-color);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: var(--main-color00);
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:active {
+    opacity: var(--btn-opacity-hover);
+}
+
+
+.what-we-do {
+    background-color: #FF6565;
+    color: 1f1f1f;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.what-we-do h2 {
+    font-size: 20px;
+    margin-bottom: 40px; 
+}
+
+.services {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 250px;
+    padding: 20px;
+}
+
+.service i {
+    font-size: 40px;
+    color: #FF6565;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+}
+
